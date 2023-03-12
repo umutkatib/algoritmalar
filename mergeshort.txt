@@ -1,0 +1,23 @@
+1 - Diziyi ikiye bölüyoruz. Bu bölme işlemini dizinin tamamı bir eleman kalana kadar tekrar ediyoruz.
+
+2 - Daha sonra, her alt diziyi sıralıyoruz.
+
+3 - Alt dizileri birleştirerek, sıralanmış bir dizi elde ediyoruz.
+
+4 - Sonuç olarak, aşağıdaki gibi sıralı bir dizi elde ederiz:
+
+[8, 11, 12, 16, 21, 22]
+
+>>> İşlem adımları <<<
+
+
+[16, 21, 11, 8, 12, 22]
+İlk adımda, diziyi ikiye bölüyoruz:
+[16, 21, 11] [8, 12, 22]
+Her iki alt diziyi ayrı ayrı sıralıyoruz:
+[11, 16, 21] [8, 12, 22]
+Son olarak, iki alt diziyi birleştiriyoruz:
+[8, 11, 12, 16, 21, 22]
+
+
+Sonuç olarak, verilen diziyi Merge Sort algoritması kullanarak sıraladık.
