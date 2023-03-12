@@ -1,0 +1,31 @@
+[22,27,16,2,18,6] -> Insertion Sort algoritması ile çözünüz:
+
+
+1 - İlk olarak, 2. elemandan başlayarak diziyi tararız.
+
+2 - 2. elemanı, ilk elemanla karşılaştırırız ve küçükse yer değiştiririz.
+Bu durumda, 2. eleman 1. elemanın solunda olacaktır.
+
+3 - Daha sonra, 3. elemanı, 2. elemanın solundaki elemanlarla karşılaştırırız. 2. elemandan büyükse, 3. eleman yerinde kalır.
+Eğer 2. elemandan küçükse, 2. elemanın soluna yerleştiririz.
+
+4 - Aynı şekilde, 4. elemandan başlayarak, elemanları önceki elemanlarla karşılaştırarak sıralarız.
+
+5 - Sonuç olarak, aşağıdaki gibi sıralı bir dizi elde ederiz:
+
+[2, 6, 16, 18, 22, 27]
+
+
+>>> İşlem adımları >>>
+
+[22, 27, 16, 2, 18, 6]
+[22, 27, 16, 2, 18, 6] -> 2'yi 22'nin soluna yerleştiriyoruz:
+[2, 22, 27, 16, 18, 6]
+[2, 22, 27, 16, 18, 6] -> 16'yı 27, 22, 2'nin soluna yerleştiriyoruz:
+[2, 16, 22, 27, 18, 6]
+[2, 16, 22, 27, 18, 6] -> 18'i 27'nin soluna yerleştiriyoruz:
+[2, 16, 22, 18, 27, 6]
+[2, 16, 18, 22, 27, 6] -> 6'yı 22, 18, 16, 2'nin soluna yerleştiriyoruz:
+[2, 6, 16, 18, 22, 27]
+
+Sonuç olarak, verilen diziyi İnsertion Sort algoritması kullanarak sıraladık.
